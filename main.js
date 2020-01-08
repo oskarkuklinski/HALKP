@@ -46,6 +46,7 @@ class Calculator {
     this.currentOperand = computation;
     this.operation = undefined;
   }
+  //Kiedy zmienie this.currentOperand w taki sposób this.currentOperant = `${prevOperation} ${operation} to wtedy działa, ale działania wychhodza przyjebane w pierwiastkach`
   chooseOpearation(operation) {
     if (this.currentOperand === "") return;
     prevOperation = this.currentOperand;
