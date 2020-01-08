@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.output {
+  margin-bottom: 15px;
+  min-height: 75px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  border-bottom: 2px dotted grey;
+}
+.container {
+  max-width: 250px;
+}
+.btn {
+  height: 60px;
+  width: 60px;
+}

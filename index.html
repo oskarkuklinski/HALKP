@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Intive - Calculator</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css"
+      integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row output">
+        <div class="operation" data-currentOperand></div>
+      </div>
+      <div class="row">
+        <button class="btn btn-raised btn-danger" data-clear>
+          C
+        </button>
+        <button class="btn btn-raised btn-danger" data-clearAll>
+          CE
+        </button>
+        <button class="btn btn-raised btn-info" data-operation>^</button>
+        <button class="btn btn-raised btn-info" data-operation>pierw</button>
+      </div>
+      <div class="row">
+        <button class="btn btn-raised btn-secondary" data-number>1</button>
+        <button class="btn btn-raised btn-secondary" data-number>2</button>
+        <button class="btn btn-raised btn-secondary" data-number>3</button>
+        <button class="btn btn-raised btn-info" data-operation>*</button>
+      </div>
+      <div class="row">
+        <button class="btn btn-raised btn-secondary" data-number>4</button>
+        <button class="btn btn-raised btn-secondary" data-number>5</button>
+        <button class="btn btn-raised btn-secondary" data-number>6</button>
+        <button class="btn btn-raised btn-info" data-operation>/</button>
+      </div>
+      <div class="row">
+        <button class="btn btn-raised btn-secondary" data-number>7</button>
+        <button class="btn btn-raised btn-secondary" data-number>8</button>
+        <button class="btn btn-raised btn-secondary" data-number>9</button>
+        <button class="btn btn-raised btn-info" data-operation>-</button>
+      </div>
+      <div class="row">
+        <button class="btn btn-raised btn-secondary" data-number>.</button>
+        <button class="btn btn-raised btn-secondary" data-number>0</button>
+        <button class="btn btn-raised btn-secondary" data-equals>=</button>
+        <button class="btn btn-raised btn-info" data-operation>+</button>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
